@@ -24,9 +24,10 @@ class ViewController: UIViewController {
 
 let words = [
     ["Apple", "Pear", "Watermelon"],
-    ["Carrot", "Pickle", "Potato", "Tomato"]
+    ["Carrot", "Pickle", "Potato", "Tomato"],
+    ["Strawberry","Raspberry","Blackberry","Blueberry"]
 ]
-let headers = ["Fruits", "Vegetables"]
+let headers = ["Fruits", "Vegetables", "Berries"]
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
